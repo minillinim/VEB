@@ -1,0 +1,10 @@
+# 
+# File: package_blacklist.dat
+# 
+# List of packages which don't play nicely
+# which is necessary because combining the output from
+# multiple calls to apt-depends can introduce conflicts
+# 
+# Format -> one per line!
+# 
+debconf-english

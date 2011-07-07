@@ -1,0 +1,10 @@
+#
+# Ecample
+#
+mirror?http://172.27.179.14/ubuntu
+arch?amd64
+suite?lucid
+bridge?br0
+apps?base
+firstboot?
+firstlogin?

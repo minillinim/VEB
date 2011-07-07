@@ -1,0 +1,13 @@
+# 
+# File: virtual_defaults.dat
+# 
+# List of default providers of virtual packages
+# which is necessary because vm-builder spews when
+# passed virtual packages
+# 
+# Format:
+# virt_package:default
+# 
+awk:gawk
+debconf-2.0:debconf
+file-rc:sysv-rc

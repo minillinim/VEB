@@ -1,0 +1,5 @@
+Most of the machines in the virtual environment will need to have the same setup.
+This includes ntp, nfs mounts, kerberos, pam etc...
+
+These programs mostly rely on .conf files located in /etc. So we store one copy of them here and we let the machines clone from
+here as they see fit.

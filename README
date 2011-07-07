@@ -1,0 +1,27 @@
+###############################################################################
+#
+#    VEB -- Virtual environment builder V_0.0000001
+#    
+#    Copyright (C) 2011 Michael Imelfort
+#    
+#    An alternative to openstack or other highly complex platforms
+#    A little more advanced than simply running KVM on the command line
+#    
+###############################################################################
+
+    This system is aimed at scientists (or other people) who need to maintain
+    a cluster of VMs but can't ustify the time to be sysadmins
+
+    If you've got a collection of servers and they're all set up to use KVM
+    then you can use this build environment to manage the creation and allocation
+    of VMs. You still need to bring things up and down using "virsh" but you
+    can specify a bunch of machine templates and first boot scripts and then
+    build as many of them as you like. Then instead of updating X servers, you
+    can simply rebuild them and then redeploy!
+
+Once you have unpacked everything you'll need to add thes lines to your ~/.bashrc
+
+ export VEB_ROOT='path to "veb" folder'
+ export PATH=$PATH:$VEB_ROOT/src
+
+Then you need to start building templates! More on this coming soon...
